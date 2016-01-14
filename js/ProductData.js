@@ -1,6 +1,6 @@
 // data
 var dataObj = {
-  init: function{
+  init: function(){
     var dataArray = [
       {
         id: '0011001',
