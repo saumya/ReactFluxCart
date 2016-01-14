@@ -1,4 +1,7 @@
-//
+// All 'Action Creator methods' are here
+// These methods :
+//   - tell Dispatcher to dispatch actions
+//   - are called from components
 var AppDispatcher = require('../dispatcher/AppDispatcher');
 var FluxCartConstants = require('../constants/FluxCartConstants');
 var FluxCartActions = {

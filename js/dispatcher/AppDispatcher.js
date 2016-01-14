@@ -1,4 +1,4 @@
-//
+// Action Dispatcher
 var Dispatcher = require('flux').dispatcher;
 var AppDispatcher = new Dispatcher();
 AppDispatcher.handleAction = function(action){
