@@ -1,6 +1,6 @@
 var FluxCartActions = ('../actions/FluxCartActions');
 var api = {
-  getProductData: fuction(){
+  getProductData: function(){
     var localData = localStorage.getItem('product');
     var data = JSON.parse(localData);
     FluxCartActions.receiveProduct(data);

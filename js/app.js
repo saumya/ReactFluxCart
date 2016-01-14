@@ -8,4 +8,4 @@ var FluxCartApp = require ('./components/FluxCartApp.react');
 ProductData.init();
 CartAPI.getProductData();
 // Render
-ReactDOM.render(<FluxCartApp>,document.getElementById('flux-cart'));
+ReactDOM.render(<FluxCartApp />,document.getElementById('flux-cart'));
