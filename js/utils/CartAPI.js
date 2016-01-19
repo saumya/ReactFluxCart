@@ -1,4 +1,4 @@
-var FluxCartActions = ('../actions/FluxCartActions');
+var FluxCartActions = require('../actions/FluxCartActions');
 var api = {
   getProductData: function(){
     var localData = localStorage.getItem('product');
