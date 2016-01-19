@@ -1,5 +1,5 @@
 // Action Dispatcher
-var Dispatcher = require('flux').dispatcher;
+var Dispatcher = require('flux').Dispatcher;
 var AppDispatcher = new Dispatcher();
 AppDispatcher.handleAction = function(action){
   var actionFromViewObj = {

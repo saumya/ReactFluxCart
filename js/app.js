@@ -1,5 +1,5 @@
 //
-var React = require ('react');
+window.React = require ('react');
 var ReactDOM = require ('react-dom');
 var ProductData = require ('./ProductData');
 var CartAPI = require ('./utils/CartAPI');
